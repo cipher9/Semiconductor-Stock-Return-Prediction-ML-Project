@@ -19,7 +19,7 @@ First run semiconductor_dataset_cleaning_and_preprocessing_with_5_10_21_day_targ
 4. Confirm that processed_data/semiconductor_model_data_43_features_cleaned.csv exists. 
 5. Run the notebook from top to bottom. The notebook will create horizon-specific output folders and save result CSVs, plots, predictions, model rankings, coefficients, and feature-importance files. 
 
-Input/output directory paths should be edited if this repository is forked.
+Input/output directory paths should be edited if this repository is cloned/forked.
  
 ## Introduction 
 Semiconductor companies are central to artificial intelligence, cloud infrastructure, consumer electronics, automobiles, and industrial automation. Their stock prices often react strongly to macroeconomic conditions, product cycles, capital spending, and investor expectations about AI and data-center demand. This makes semiconductor return prediction an important but difficult machine learning problem, where even small improvements over a simple baseline can be meaningful.
