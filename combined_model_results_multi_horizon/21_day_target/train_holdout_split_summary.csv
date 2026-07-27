@@ -1,0 +1,3 @@
+Partition,Start,End,Rows,Unique Dates
+Training and tuning,2016-07-01,2024-06-21,24072,2006
+Final holdout,2024-06-24,2026-06-24,6024,502

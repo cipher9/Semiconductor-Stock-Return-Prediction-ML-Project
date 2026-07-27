@@ -1,0 +1,221 @@
+Model,Feature,Importance
+Random Forest,treasury_10y,0.08710188129516634
+Random Forest,volatility_20,0.0734030769915781
+Random Forest,copper,0.07273269836337011
+Random Forest,vix,0.06787136018137462
+Random Forest,sma_50,0.04592129258588302
+Random Forest,atr_14,0.043546288287036425
+Random Forest,ema_12,0.04265620528285409
+Random Forest,fed_funds_rate,0.038973855734758214
+Random Forest,previous_60_day_return,0.038630375178788715
+Random Forest,sma_20,0.03587333873138407
+Random Forest,open,0.03572625150285336
+Random Forest,momentum_20,0.03349738661272841
+Random Forest,high,0.03115009209277442
+Random Forest,ema_26,0.030365134525459338
+Random Forest,adjusted_close,0.028649219225129568
+Random Forest,low,0.027300320525219576
+Random Forest,macd,0.02420921535213461
+Random Forest,yield_curve_10y_2y,0.023384981801756598
+Random Forest,previous_20_day_return,0.023082779793682527
+Random Forest,macd_signal,0.02244525928205148
+Random Forest,eps,0.021470691987700748
+Random Forest,distance_from_sma_20,0.013882352368555504
+Random Forest,gross_margin,0.013326377526709577
+Random Forest,dxy,0.012404235284481173
+Random Forest,volume,0.010450397360880704
+Random Forest,revenue,0.00958110102016039
+Random Forest,capex,0.008532133058224168
+Random Forest,rsi_14,0.008389225329505392
+Random Forest,debt_to_equity,0.008016007455065994
+Random Forest,sp500_return,0.007765145173785068
+Random Forest,rd_expense,0.006989520819523648
+Random Forest,ticker_NVDA,0.006955374868169672
+Random Forest,free_cash_flow,0.0064673512272785914
+Random Forest,return_5d,0.006314128941055002
+Random Forest,previous_5_day_return,0.0062323691814744845
+Random Forest,inventory,0.005188866427030599
+Random Forest,macd_histogram,0.004225672862677199
+Random Forest,soxx_return,0.003924577549471281
+Random Forest,daily_return,0.0035372535841735747
+Random Forest,bollinger_width,0.0027943725046252733
+Random Forest,nasdaq_return,0.002346051262215512
+Random Forest,qqq_return,0.0018416146923976252
+Random Forest,previous_day_return,0.000598388291196969
+Random Forest,ticker_INTC,0.0005397044940539977
+Random Forest,relative_volume,0.0005392149650417323
+Random Forest,ticker_AMD,0.0004160682095706129
+Random Forest,ticker_MRVL,0.0003450322520477311
+Random Forest,ticker_QCOM,0.0003199377293676122
+Random Forest,ticker_MU,8.582022757673274e-05
+Random Forest,ticker_AVGO,0.0
+Random Forest,ticker_ADI,0.0
+Random Forest,ticker_MCHP,0.0
+Random Forest,ticker_MPWR,0.0
+Random Forest,ticker_ON,0.0
+Random Forest,ticker_TXN,0.0
+XGBoost,fed_funds_rate,0.04177674651145935
+XGBoost,ticker_NVDA,0.03808313608169556
+XGBoost,ema_26,0.03712381795048714
+XGBoost,yield_curve_10y_2y,0.03482861444354057
+XGBoost,copper,0.03121359460055828
+XGBoost,dxy,0.029719935730099678
+XGBoost,treasury_10y,0.029684878885746002
+XGBoost,vix,0.028605442494153976
+XGBoost,ticker_AMD,0.02786893956363201
+XGBoost,macd,0.026742376387119293
+XGBoost,atr_14,0.02649598754942417
+XGBoost,volatility_20,0.024664726108312607
+XGBoost,sma_50,0.024654481559991837
+XGBoost,debt_to_equity,0.024622168391942978
+XGBoost,previous_20_day_return,0.023044738918542862
+XGBoost,macd_signal,0.02258268930017948
+XGBoost,eps,0.021598143503069878
+XGBoost,volume,0.021582944318652153
+XGBoost,high,0.02038431353867054
+XGBoost,sma_20,0.020135851576924324
+XGBoost,free_cash_flow,0.020061088725924492
+XGBoost,gross_margin,0.019922396168112755
+XGBoost,momentum_20,0.019876156002283096
+XGBoost,previous_60_day_return,0.019795596599578857
+XGBoost,rd_expense,0.019400807097554207
+XGBoost,ema_12,0.01928134635090828
+XGBoost,adjusted_close,0.018829843029379845
+XGBoost,capex,0.018720997497439384
+XGBoost,inventory,0.017582735046744347
+XGBoost,revenue,0.01712452992796898
+XGBoost,open,0.017077459022402763
+XGBoost,ticker_ON,0.01690809614956379
+XGBoost,low,0.016574107110500336
+XGBoost,return_5d,0.015967518091201782
+XGBoost,ticker_MU,0.014450687915086746
+XGBoost,ticker_MCHP,0.014145502820611
+XGBoost,macd_histogram,0.013345449231564999
+XGBoost,distance_from_sma_20,0.013292556628584862
+XGBoost,ticker_MRVL,0.01313461922109127
+XGBoost,ticker_QCOM,0.012550516985356808
+XGBoost,previous_5_day_return,0.011872908100485802
+XGBoost,bollinger_width,0.011767485179007053
+XGBoost,ticker_AVGO,0.011717910878360271
+XGBoost,rsi_14,0.011715136468410492
+XGBoost,nasdaq_return,0.010600908659398556
+XGBoost,soxx_return,0.009215764701366425
+XGBoost,relative_volume,0.009118461050093174
+XGBoost,sp500_return,0.009068596176803112
+XGBoost,qqq_return,0.009001189842820168
+XGBoost,daily_return,0.007041943725198507
+XGBoost,previous_day_return,0.005424107890576124
+XGBoost,ticker_INTC,0.0
+XGBoost,ticker_ADI,0.0
+XGBoost,ticker_MPWR,0.0
+XGBoost,ticker_TXN,0.0
+LightGBM,fed_funds_rate,272.0
+LightGBM,yield_curve_10y_2y,219.0
+LightGBM,treasury_10y,160.0
+LightGBM,copper,142.0
+LightGBM,atr_14,106.0
+LightGBM,dxy,106.0
+LightGBM,vix,91.0
+LightGBM,volatility_20,84.0
+LightGBM,previous_60_day_return,77.0
+LightGBM,macd,70.0
+LightGBM,free_cash_flow,67.0
+LightGBM,debt_to_equity,55.0
+LightGBM,macd_signal,52.0
+LightGBM,eps,51.0
+LightGBM,gross_margin,48.0
+LightGBM,sma_50,48.0
+LightGBM,revenue,46.0
+LightGBM,capex,42.0
+LightGBM,rd_expense,41.0
+LightGBM,momentum_20,38.0
+LightGBM,adjusted_close,35.0
+LightGBM,volume,34.0
+LightGBM,ticker_NVDA,27.0
+LightGBM,open,20.0
+LightGBM,sma_20,19.0
+LightGBM,ema_26,17.0
+LightGBM,low,17.0
+LightGBM,inventory,15.0
+LightGBM,return_5d,12.0
+LightGBM,high,11.0
+LightGBM,rsi_14,11.0
+LightGBM,previous_20_day_return,10.0
+LightGBM,ema_12,10.0
+LightGBM,macd_histogram,9.0
+LightGBM,distance_from_sma_20,8.0
+LightGBM,soxx_return,7.0
+LightGBM,ticker_AMD,6.0
+LightGBM,bollinger_width,5.0
+LightGBM,ticker_MU,3.0
+LightGBM,sp500_return,3.0
+LightGBM,ticker_ON,3.0
+LightGBM,previous_5_day_return,2.0
+LightGBM,ticker_MRVL,1.0
+LightGBM,relative_volume,0.0
+LightGBM,daily_return,0.0
+LightGBM,qqq_return,0.0
+LightGBM,nasdaq_return,0.0
+LightGBM,ticker_INTC,0.0
+LightGBM,ticker_AVGO,0.0
+LightGBM,ticker_ADI,0.0
+LightGBM,previous_day_return,0.0
+LightGBM,ticker_MCHP,0.0
+LightGBM,ticker_MPWR,0.0
+LightGBM,ticker_QCOM,0.0
+LightGBM,ticker_TXN,0.0
+CatBoost,fed_funds_rate,21.10220902863725
+CatBoost,yield_curve_10y_2y,10.946046915040105
+CatBoost,treasury_10y,10.581458215254962
+CatBoost,copper,8.85608564382716
+CatBoost,vix,4.955988105409295
+CatBoost,dxy,4.273394104165526
+CatBoost,macd,3.7318700823219695
+CatBoost,volatility_20,2.9014958007515204
+CatBoost,atr_14,2.7071790461651455
+CatBoost,previous_60_day_return,2.264086144097876
+CatBoost,free_cash_flow,2.0497674045054586
+CatBoost,sma_50,1.740132988959794
+CatBoost,momentum_20,1.7028375671475153
+CatBoost,ema_26,1.6710054958585345
+CatBoost,macd_signal,1.6381442985433752
+CatBoost,eps,1.6301345047030433
+CatBoost,rd_expense,1.62311371079207
+CatBoost,capex,1.4951988928896598
+CatBoost,sma_20,1.3946373171488935
+CatBoost,debt_to_equity,1.274486852004157
+CatBoost,inventory,1.1804733264215408
+CatBoost,ticker_NVDA,1.0941536786658417
+CatBoost,low,1.0841068574237096
+CatBoost,open,1.0538856728526038
+CatBoost,gross_margin,0.9701221646519516
+CatBoost,ema_12,0.9117452474058254
+CatBoost,revenue,0.9010594828677545
+CatBoost,adjusted_close,0.8353584982958292
+CatBoost,high,0.7471251307458253
+CatBoost,distance_from_sma_20,0.6203066278752615
+CatBoost,previous_20_day_return,0.6123403770414816
+CatBoost,volume,0.610120025231663
+CatBoost,rsi_14,0.4184147708615746
+CatBoost,ticker_AMD,0.257023227846308
+CatBoost,ticker_ON,0.14848478213121494
+CatBoost,bollinger_width,0.016008011458270483
+CatBoost,relative_volume,0.0
+CatBoost,daily_return,0.0
+CatBoost,return_5d,0.0
+CatBoost,macd_histogram,0.0
+CatBoost,soxx_return,0.0
+CatBoost,nasdaq_return,0.0
+CatBoost,sp500_return,0.0
+CatBoost,qqq_return,0.0
+CatBoost,ticker_ADI,0.0
+CatBoost,previous_day_return,0.0
+CatBoost,previous_5_day_return,0.0
+CatBoost,ticker_INTC,0.0
+CatBoost,ticker_AVGO,0.0
+CatBoost,ticker_MCHP,0.0
+CatBoost,ticker_MPWR,0.0
+CatBoost,ticker_MU,0.0
+CatBoost,ticker_MRVL,0.0
+CatBoost,ticker_QCOM,0.0
+CatBoost,ticker_TXN,0.0
